@@ -46,6 +46,11 @@ If you choose rectangle shape you can set corner radious
 ```java
 multiImageView.setRectCorners(50);
 ```
+To clear MultiImageView use:
+```java
+multiImageView.clear();
+```
+
 
 Take a look at [Sample projects] [sample] for more information
 
