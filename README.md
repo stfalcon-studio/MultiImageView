@@ -42,7 +42,7 @@ multiImageView.setShape(MultiImageView.Shape.RECTANGLE);//Rectangle with round c
 multiImageView.setShape(MultiImageView.Shape.CIRCLE);//Circle
 multiImageView.setShape(MultiImageView.Shape.NONE);//Without shape
 ```
-If you choose rectangle shape you can set corner radious
+If you choose rectangle shape you can set corner radius
 ```java
 multiImageView.setRectCorners(50);
 ```
