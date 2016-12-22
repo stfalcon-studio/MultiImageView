@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MultiImageView</string>
+    <string name="add_photo">Add photo</string>
+    <string name="change_shape">Change shape</string>
+</resources>
