@@ -3,6 +3,9 @@ Library for display a few images in one MultiImageView like avatar of group chat
 
 ![alt tag](http://i.imgur.com/S4QoKVB.gif)
 
+### Who we are
+Need iOS and Android apps, MVP development or prototyping? Contact us via info@stfalcon.com. We develop software since 2009, and we're known experts in this field. Check out our [portfolio](https://stfalcon.com/en/portfolio) and see more libraries from [stfalcon-studio](https://stfalcon-studio.github.io/).
+
 ### Download
 
 Download via Gradle:
