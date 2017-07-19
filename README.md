@@ -1,4 +1,6 @@
 # MultiImageView
+[![codebeat badge](https://codebeat.co/badges/a7126021-293c-4ba8-887c-2ccae7379b5c)](https://codebeat.co/projects/github-com-stfalcon-studio-multiimageview-master) [ ![Download](https://api.bintray.com/packages/bevzaanton/maven/MultiImageView/images/download.svg) ](https://bintray.com/bevzaanton/maven/MultiImageView/_latestVersion)
+
 Library for display a few images in one MultiImageView like avatar of group chat
 
 ![alt tag](http://i.imgur.com/S4QoKVB.gif)
