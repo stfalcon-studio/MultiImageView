@@ -17,12 +17,19 @@
 package com.stfalcon.multiimageview
 
 import android.content.Context
-import android.graphics.*
+import android.graphics.Bitmap
+import android.graphics.Canvas
+import android.graphics.ColorFilter
+import android.graphics.Paint
+import android.graphics.Path
+import android.graphics.PixelFormat
+import android.graphics.Rect
+import android.graphics.RectF
 import android.graphics.drawable.Drawable
 import android.media.ThumbnailUtils
 import android.util.AttributeSet
 import android.widget.ImageView
-import java.util.*
+import java.util.ArrayList
 
 /**
  * Created by Anton Bevza on 12/22/16.
@@ -35,6 +42,7 @@ class MultiImageView(context: Context, attrs: AttributeSet) : ImageView(context,
             field = value
             invalidate()
         }
+
     //Corners radius for rectangle shape
     var rectCorners = 100
 
@@ -83,7 +91,7 @@ class MultiImageView(context: Context, attrs: AttributeSet) : ImageView(context,
                     if (shape == Shape.RECTANGLE) {
                         //Rectangle with corners
                         path.addRoundRect(rect, rectCorners.toFloat(),
-                                rectCorners.toFloat(), Path.Direction.CW)
+                            rectCorners.toFloat(), Path.Direction.CW)
                     } else {
                         //Oval
                         path.addOval(rect, Path.Direction.CW)
@@ -158,7 +166,6 @@ class MultiDrawable(val bitmaps: ArrayList<Bitmap>) : Drawable() {
      * Data class for store bitmap and position
      */
     data class PhotoItem(val bitmap: Bitmap, val position: Rect)
-
 
     //***Needed to override***//
     override fun setAlpha(alpha: Int) {
