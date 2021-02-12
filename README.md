@@ -23,7 +23,7 @@ allprojects {
 ```
 dependencies {
   ...
-  compile 'com.github.stfalcon:multiimageview:[last_version]'
+  implementation 'com.github.stfalcon:multiimageview:[last_version]'
 }  
 ```
 
