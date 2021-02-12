@@ -10,19 +10,21 @@ Need iOS and Android apps, MVP development or prototyping? Contact us via info@s
 
 ### Download
 
-Download via Gradle:
-```gradle
-compile 'com.github.stfalcon:multiimageview:0.1'
+1. Add jitpack to the root build.gradle file of your project at the end of repositories.
 ```
-
-or Maven:
-```xml
-<dependency>
-  <groupId>com.github.stfalcon</groupId>
-  <artifactId>multiimageview</artifactId>
-  <version>0.1</version>
-  <type>pom</type>
-</dependency>
+allprojects {
+  repositories {
+    ...
+    maven { url 'https://jitpack.io' }
+  }
+}
+```
+2. Add the dependency
+```
+dependencies {
+  ...
+  compile 'com.github.stfalcon:multiimageview:[last_version]'
+}  
 ```
 
 ### Usage
